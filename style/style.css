@@ -415,4 +415,8 @@ pre code {
   border: 1px solid #999;
   display: block;
   padding: 20px;
+  text-align: left;
+  white-space: pre-wrap;     /* Enables wrapping while preserving whitespace */
+  word-wrap: break-word;     /* Breaks long words or URLs */
+  overflow-x: auto;          /* Optional: allows scrolling for very wide content */
 }
